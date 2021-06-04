@@ -573,9 +573,6 @@ section:not(.hero-bananer) {
 }
 
 .introducing-box-wrapper .boxes-wrapper .per-s-box:nth-child(2) i {
-  color: #1f1f1f !important;
-}
-
 .new-features {
   background: linear-gradient(145deg, rgba(244, 129, 63, 0.09) 0%, rgba(241, 85, 106, 0.09) 100%);
 }
@@ -1333,6 +1330,8 @@ article.qus-answer {
   padding: 1rem 0.5rem;
   -webkit-box-shadow: 1px 0px 6px #ddd;
           box-shadow: 1px 0px 6px #ddd;
+  background: #d4f1ff;
+  border-radius: .5rem;
 }
 
 .blog-body .blog-photo {
@@ -1387,6 +1386,7 @@ article.qus-answer {
 
 .blog-body .blog-info p {
   color: #777;
+  text-transform: capitalize;
 }
 
 .blog-body .blog-info .btns-cm {

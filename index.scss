@@ -472,10 +472,6 @@ section:not(.hero-bananer) {
     .per-s-box:nth-child(2) {
       background-color: white;
       color: rgb(36, 36, 36) !important;
-
-      i {
-        color: rgb(31, 31, 31) !important;
-      }
     }
   }
 }
@@ -1114,6 +1110,8 @@ article.qus-answer {
     width: 20rem;
     padding: 1rem 0.5rem;
     box-shadow: 1px 0px 6px #ddd;
+    background: #d4f1ff;
+    border-radius: .5rem;
   }
 
   .blog-photo {
@@ -1156,6 +1154,7 @@ article.qus-answer {
 
     p {
       color: #777;
+      text-transform: capitalize
     }
 
     .btns-cm {
