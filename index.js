@@ -1,6 +1,6 @@
-const preloader = document.querySelector('.onpageload')
+const preloader = document.querySelector('.page-preloder')
 window.addEventListener('load',(e)=>{
-preloader.classList.add('hide-preloader')
+preloader.classList.add('hide-page-preloder')
 })
 
 
@@ -55,7 +55,27 @@ qBtn.forEach((e) => {
     })
 })
 
+const playBtn = document.querySelector('.play-icon')
+const videoContainer = document.querySelector('.video-carryer')
 
+const closeVideo = document.querySelector('.close-vedio')
+
+playBtn.addEventListener('click',(e)=>{
+    playBtn.classList.add('hide-play-icon')
+    videoContainer.classList.add('show-vedio')
+
+
+})
+
+closeVideo.addEventListener('click',(e)=>{
+    videoContainer.classList.remove('show-vedio')
+    playBtn.classList.remove('hide-play-icon')
+
+const vedio = document.querySelector('.model-vedio')
+vedio.pause()
+
+
+})
 
 //ows Curousel start
 $('.new-feature-carosuel').owlCarousel({
@@ -65,10 +85,11 @@ $('.new-feature-carosuel').owlCarousel({
     margin: 20,
     responsive: {
         0: {
-            items: 2,
+            items: 1.2,
+           stagePadding:40,
 
         },
-        680: {
+        499: {
             items: 2
         },
         1000: {

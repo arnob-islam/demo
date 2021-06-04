@@ -18,16 +18,22 @@
 
 <body>
     <!-- preloader -->
-    <div class="onpageload">
-        <img src="images/loader3.gif" alt="">
+    <div class="page-preloder">
+        <div class="section">
+            <span class="dot d-1"></span>
+            <span class="dot d-2"></span>
+            <span class="dot d-3"></span>
+        </div>
     </div>
+    
     <!-- preloader -->
 
+    <!-- header -->
     <header id="home">
         <div class="logo"><a href="index.html">
                 <img src="images/logo.png" alt="">
 
-                INFINITY
+                Infinity
             </a></div>
         <div class="links">
             <ul class="list-items">
@@ -45,15 +51,18 @@
             <i class="fas fa-bars"></i>
         </button>
     </header>
+    <!-- header -->
 
+
+    <!-- mobile header -->
     <section class="mobile-slider">
         <aside class="sidebar-carryer">
             <div class="sidebar-header">
                 <div class="slider-brand">
-                 <a href="index.html">
-                    <img src="images/logo.png" alt="">
-                    INFINITY
-                 </a>
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="">
+                        Infinity
+                    </a>
                 </div>
                 <button class="close-btn"><i class="fas fa-times"></i>
                 </button>
@@ -70,14 +79,16 @@
             </ul>
         </aside>
     </section>
+    <!-- mobile header end -->
 
-
+    <!-- banner start -->
     <section class="hero-bananer" id="home-silder">
         <div class="container col-xxl-8 px-4 py-5 ">
             <div class="row align-items-center justify-content-center g-5 py-5 hero-body">
                 <div class="col-10 col-sm-10 col-lg-6 hero-picture-caryer">
 
                     <img src="images/06.png" class="d-block mx-lg-auto img-fluid hero-picture" loading="lazy">
+
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-offset='150'>
                     <h1 class="display-5 fw-bold lh-1 mb-3">INFINITY</h1>
@@ -95,8 +106,9 @@
         </div>
 
     </section>
+    <!-- banner end -->
 
-
+    <!-- about-->
     <section class="introducing-page" id="about">
 
         <div class="container col-xxl-8 px-4 py-5">
@@ -154,7 +166,10 @@
         </div>
 
     </section>
+    <!-- about -->
 
+
+    <!-- features one -->
     <section class="feature-sec">
         <div class="container" id="hanging-icons">
             <div class="feature-wrapper">
@@ -216,9 +231,10 @@
         </div>
 
     </section>
+    <!-- features one-->
 
 
-
+    <!-- features two -->
     <section class="new-features" id="features">
         <div class="section-tittle-each">
             <h1>Our New <span>Features</span></h1>
@@ -277,24 +293,35 @@
             </div>
         </div>
     </section>
+    <!-- features two -->
+
 
     <section class="vedio-section">
         <div class="container">
             <div class="vedio-wrapper">
-                <div class="play-btn">   
-                    <a href= "https://www.youtube.com/embed/DKbfBSrjVHA" widh='400px' class="btn-anchor">
+                <div class="video-carryer">
+                    <video class="model-vedio" controls src="images/isitpossible.mp4"></video>
+
+                    <button class="close-vedio">
+                        <i class="far fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="play-btn">
+                    <!-- <a href="" class="btn-anchor"> -->
                         <i class="fas fa-play-circle play-icon"></i>
-                    </a>
+                    <!-- </a> -->
                 </div>
                 <div class="sec-infos">
                     <h2>Being unique is the preference <br>
 
                         youtube video will appear in popover</h2>
                 </div>
+              
             </div>
         </div>
     </section>
 
+    <!-- screenshot -->
     <section class="screenshot-sector" id="Screenshots">
         <div class="section-tittle-each">
             <h1>Infinity <span>Screenshots</span></h1>
@@ -327,9 +354,10 @@
             </div>
         </div>
     </section>
+    <!-- screenshot -->
 
 
-
+    <!-- Pricing -->
     <section class="pricing-sector">
 
         <div class="section-tittle-each">
@@ -340,9 +368,9 @@
         </div>
         <div class="container">
             <main>
-                <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                    <div class="col">
-                        <div class="card mb-4 rounded-3 pt-3 pb-4 shadow-sm" data-aos="flip-left">
+                <div class="pricing-body-wrapper text-center">
+                    <div class="pricing-s-box-carryer" data-aos="flip-left">
+                        <div class="price-s-box" >
 
                             <div class="card-header py-3">
                                 <h4 class="my-0 fw-normal">Free</h4>
@@ -356,15 +384,15 @@
                                     <li>Email support</li>
                                     <li>Help center access</li>
                                 </ul>
-                                <button type="button" class="log-up btn btn-lg btns-cm">Sign up for
+                                <button type="button" class="log-up btn btn-lg btns-cm">Sign up
                                     free</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card mb-4 rounded-3 pt-3 pb-4 card-active shadow-sm">
+                    <div class="pricing-s-box-carryer ">
+                        <div class="price-s-box">
                             <div class="card-header py-3">
-                                <h4 class="my-0 fw-normal">Pro</h4>
+                                <h4 class="my-0 fw-normal">Professional</h4>
                             </div>
                             <div class="card-body">
                                 <h1 class="card-title pricing-card-title">$15 <br> <small
@@ -379,10 +407,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card mb-4 pt-3 pb-4 rounded-3 shadow-sm" data-aos="flip-right">
+                    <div class="pricing-s-box-carryer" data-aos="flip-right">
+                     <div class="price-s-box" >
                             <div class="card-header py-3">
-                                <h4 class="my-0 fw-normal">Enterprise</h4>
+                                <h4 class="my-0 fw-normal">Premium</h4>
                             </div>
                             <div class="card-body">
                                 <h1 class="card-title pricing-card-title">$32 <br> <small
@@ -401,10 +429,11 @@
             </main>
         </div>
     </section>
+    <!-- Pricing -->
 
 
 
-
+<!-- download -->
     <section class="download-sector">
         <div class="section-tittle-each">
             <h1>Download <span>Infinity</span></h1>
@@ -415,18 +444,22 @@
         <div class="container">
             <div class="download-wrapper">
                 <div class="download-box">
-                    <button type="button" class="log-up btn btns-cm"><i class="fab fa-android"></i>Android
-                        story</button>
-                    <button type="button" class="log-up btn btns-cm"><i class="fab fa-apple"></i>apple story</button>
-                    <button type="button" class="log-up btn btns-cm"><i class="fab fa-windows"></i>windows
-                        story</button>
+                    <button type="button" class="log-up btn btns-cm"><i class="fab fa-android"></i>
+                        <a href="https://play.google.com/store/apps/details?id=com.pathao.driver">Android</a>
+                    </button>
+
+                    <button type="button" class="log-up btn btns-cm"><i class="fab fa-apple"></i>
+                        <a href="https://play.google.com/store/apps/details?id=com.pathao.driver">Apple</a>
+                    </button>
+
                 </div>
             </div>
         </div>
     </section>
+<!-- download -->
 
 
-
+<!-- team member-->
     <section class="our-teams" id="team">
         <div class="section-tittle-each">
             <h1>Our <span>Team</span></h1>
@@ -442,7 +475,7 @@
                     <div class="team-s-box" data-aos="flip-left">
 
                         <div class="team-pic">
-                            <img src="images/team-1.jpg" alt="">
+                            <img src="images/team.jpg" alt="">
                         </div>
                         <div class="team-des">
                             <h4>Lowra</h4>
@@ -458,7 +491,7 @@
                     </div>
                     <div class="team-s-box">
                         <div class="team-pic">
-                            <img src="images/team-2.jpg" alt="">
+                            <img src="images/team.jpg" alt="">
 
                         </div>
                         <div class="team-des">
@@ -475,7 +508,7 @@
                     </div>
                     <div class="team-s-box">
                         <div class="team-pic">
-                            <img src="images/team-3.jpg" alt="">
+                            <img src="images/team.jpg" alt="">
 
                         </div>
                         <div class="team-des">
@@ -492,7 +525,7 @@
                     </div>
                     <div class="team-s-box" data-aos="flip-right">
                         <div class="team-pic">
-                            <img src="images/team-4.jpg" alt="">
+                            <img src="images/team.jpg" alt="">
                         </div>
                         <div class="team-des">
                             <h4>Jonny </h4>
@@ -511,7 +544,10 @@
             </div>
         </div>
     </section>
+<!-- team member -->
 
+
+<!-- reward/achivement -->
     <section class="achivement-area">
         <div class="container">
             <div class="achivement-area-wrapper">
@@ -542,6 +578,7 @@
             </div>
         </div>
     </section>
+<!-- reward/achivement -->
 
 
     <section class="rating-sector">
@@ -627,7 +664,7 @@
         </div>
     </section>
 
-
+<!-- rate of famous people -->
     <section class="ganaral-quistion" id="faq">
         <div class="section-tittle-each">
             <h1>Common <span>FAQ</span></h1>
@@ -732,8 +769,10 @@
 
         </div>
     </section>
+<!-- rate of famous people -->
 
 
+<!-- blogs posts -->
     <section class="app-blogs">
         <div class="section-tittle-each">
             <h1>Excellent <span>Blogs</span></h1>
@@ -747,7 +786,7 @@
                     <div class="blog-s-box" data-aos="flip-left">
 
                         <div class="blog-photo">
-                            <img src="images/m-8jpg.jpg" alt="">
+                            <img src="images/m-10.jpg" alt="">
                         </div>
                         <div class="blog-info">
                             <a href="#">success features</a>
@@ -767,7 +806,7 @@
                     </div>
                     <div class="blog-s-box">
                         <div class="blog-photo">
-                            <img src="images/m-9.jpg" alt="">
+                            <img src="images/m-10.jpg" alt="">
 
                         </div>
                         <div class="blog-info">
@@ -812,16 +851,20 @@
             </div>
         </div>
     </section>
+<!-- blogs posts -->
 
-
+<!-- our location -->
     <section class="map-sector">
+
         <div class="map-wrapper">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52804.227229404125!2d-118.3067161100585!3d34.190725377321186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1622196897210!5m2!1sen!2sbd"></iframe>
         </div>
     </section>
+<!-- our location -->
 
 
+<!-- contect address -->
     <section class="contect-us-sector" id="contact">
 
         <div class="container">
@@ -876,8 +919,10 @@
             </div>
         </div>
     </section>
+<!-- contect address -->
 
 
+<!-- page footer -->
     <footer id="" class="section-footer">
         <div class="footer-wapper">
             <div class="container">
@@ -888,12 +933,11 @@
 
 
                                 <img src="images/logo.png" alt="">
-                                INFINITY
+                                Infinity
                             </div>
                             <p class="information-footar">
-                                INFINITY is a bright and playful page template by Codefest™. Use our
-                                template to showcase your product, service or application with a splash of colour and
-                                plenty of character. Purchase online, today
+                                Infinity is a bright and playful page template. Use our
+                                template to showcase your product, service or application with a splash of colour. Purchase online, today
 
                             </p>
                             <div class="social-icons">
@@ -924,7 +968,7 @@
                     </div>
                     <div class="fooer-address foot">
                         <div class="single-box">
-                            <h2>INFINITY HQ</h2>
+                            <h2>Infinity HQ</h2>
                             <p>Unit 100, Business Centre
                                 London SW1A 1AA
                                 +44 (0) 208 765 432</p>
@@ -947,9 +991,10 @@
         </div>
 
     </footer>
+<!-- page footer -->
 
 
-
+<!-- javascript -->
 
     <!-- owl-carousel -->
     <script src="owlJs/jquery.min.js"></script>
